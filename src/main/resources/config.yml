@@ -1,0 +1,41 @@
+# DistanceBeam v1.0 by JohnyDeCoder
+
+# Beam square size in blocks (default: 1.0)
+beam-size: 1.0
+
+# Beam rotation animation speed (default: 0.05235987755982988)
+rotation-speed: 0.05235987755982988
+
+# Number of particles in the beam from bottom to top (default: 300)
+# If you want a larger beam, type a larger number
+# WRITING A LARGE NUMBER COULD DAMAGE YOUR SERVER’S PERFORMANCE
+particle-count: 300
+
+# Space between beam particles horizontally in blocks (default: 0.5)
+particle-spacing: 0.5
+
+# Range of the center of the world in blocks (default: 100)
+# ALSO CHANGES THE VIEWING DISTANCE OF THE BEAM
+center-distance: 100.0
+
+# Center of the World X coordinate (default: 0.0)
+beam-x: 0.0
+
+# Center of the World Z coordinate (default: 0.0)
+beam-z: 0.0
+
+# Type of particle of the beam (default: END_ROD)
+# To see the complete list of particles click on the following link: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+particle-type: END_ROD
+
+# Ambient sound if the player is close to the world center location (default: BLOCK_CONDUIT_AMBIENT)
+# To see the complete list of Minecraft sounds click on the following link: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+ambient-sound: BLOCK_CONDUIT_AMBIENT
+
+# Ambient sound volume of the beam (default: 1.0)
+# ONLY NUMBERS 0-2 ARE POSSIBLE
+ambient-volume: 1.0
+
+# Ambient sound pitch of the beam (default: 1.0)
+# ONLY NUMBERS 0-2 ARE POSSIBLE
+ambient-pitch: 1.0

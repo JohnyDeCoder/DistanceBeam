@@ -1,0 +1,7 @@
+name: DistanceBeam
+version: '${project.version}'
+main: johnydecoder.main.DistanceBeam
+api-version: '1.20'
+authors: [JohnyDeCoder]
+description: A Minecraft plugin where you can see a simulation of the Beacon beam in the distance if you are too far from the center of the world.
+website: https://github.com/JohnyDeCoder
